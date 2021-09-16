@@ -8,28 +8,55 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <style>
+        .rowheight {
+            height: 60px;
+        }
+
+    </style>
+
+
 </head>
 <body>
 
     <div class="container">
 
-        <div class="row bg-danger">
-            <div class="col-lg-1 col-md-2 bg-white m-lg-2 m-md-2"> 
-                Row 1
-                Column 1
+        <div class="row bg-danger justify-content-between rowheight mt-3 mb-3">
+            <div class="col-lg-1 col-md-2 m-2 bg-white"> 
+                Rw1 Co1
             </div>
-
-            <div class="col-lg-1 col-md-2 bg-white offset-lg-8 offset-md-6 m-lg-2 m-md-2">
-                Row 1
-                Column 2
+            <div class="col-lg-1 col-md-2 m-2 bg-white">
+                Rw1 Co2
             </div>
         </div>    
 
 
-        <div class="row">
+        <div class="row bg-warning justify-content-between rowheight mb-3">
+            <div class="col-lg-2 m-2 bg-white ">
+                Row 2 Column 1
+            </div>
+            <div class="col-lg-2 m-2 bg-white">
+                Row 2 Column 2
+            </div>
+            <div class="col-lg-2 m-2 bg-white">
+                Row 2
+                Column 3
+            </div>
         </div>
 
-        <div class="row">
+        <div class="row bg-primary">
+            <div class="col-lg-2 m-2 bg-white">
+                Row 3 Column 1
+            </div>
+
+            <div class="col-lg-6 m-2 ms-lg-0 bg-white">
+                Row 3 Column 2
+            </div>
+
+            <div class="col-lg-3 m-lg-2 ms-lg-5 bg-white">
+                Row 3 Column 2
+            </div>
+
         </div>
 
 
