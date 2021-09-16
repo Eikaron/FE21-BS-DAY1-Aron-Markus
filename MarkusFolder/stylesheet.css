@@ -1,0 +1,55 @@
+* {
+    background-color: #f1f1f1;
+}
+
+.nav {
+    height: 150px;
+
+}
+
+.yt {
+    margin-left: 50px;
+    font-size: xx-large;
+    color: white;
+}
+
+#videos {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border: 5px solid red;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.flex-container > div {
+    background-color: #a97f7f;
+   width: 250px;
+   height: 200px;
+   margin-top: 20px;
+}
+
+.tl{
+    margin-left: 15px;
+}
+
+.bc{
+    background-color: white;
+}
+
+footer{
+    height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: large;
+    text-decoration: underline;
+}
